@@ -1,0 +1,5 @@
+--- 
+open_files: 
+  - .gitignore
+  - config.ru
+  - Gemfile
