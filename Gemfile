@@ -8,8 +8,8 @@ gem "bcrypt-ruby", "~> 3.0.1"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'sqlite3'
-  gem 'rspec-rails', '2.11.0'
+  gem "sqlite3", "~> 1.3.7"
+  gem "rspec-rails", "~> 2.13.0"
   gem 'guard-rspec', '1.2.1'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
@@ -20,8 +20,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem "sass-rails", "~> 3.2.6"
+  gem "coffee-rails", "~> 3.2.2"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -36,6 +36,7 @@ group :test do
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
   gem 'annotate', '2.5.0'
+  gem "factory_girl_rails", "~> 4.2.1"
 end
 
 group :production do
