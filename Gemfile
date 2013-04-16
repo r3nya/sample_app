@@ -37,6 +37,8 @@ group :test do
   gem 'growl', '1.0.3'
   gem 'annotate', '2.5.0'
   gem "factory_girl_rails", "~> 4.2.1"
+  gem "cucumber-rails", "~> 1.3.1", :require => false
+  gem "database_cleaner", "~> 0.9.1"
 end
 
 group :production do
