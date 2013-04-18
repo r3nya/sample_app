@@ -9,4 +9,9 @@ FactoryGirl.define do
       admin true
     end
   end
+
+  factory :minipost do
+    content "Ololo Kokoko"
+    user
+  end
 end
