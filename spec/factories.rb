@@ -10,8 +10,8 @@ FactoryGirl.define do
     end
   end
 
-  factory :minipost do
-    content "Ololo Kokoko"
+  factory :micropost do
+    content "Lorem ipsum"
     user
   end
 end
